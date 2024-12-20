@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  /* justify-content: ; */
+  align-items: center;
+}
+nav ul {
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+}
+
+button {
+  background-color: #00ff2a; 
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.jewelry-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.jewelry-card img {
+  max-width: 100%;
+  height: 250px;
+}
+
+.jewelry-card .price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.jewelry-card .buying-rate {
+  color: #888;
+  font-size: 0.8em;
+}
+
+.jewelry-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
